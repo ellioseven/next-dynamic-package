@@ -1,5 +1,6 @@
 {
   "name": "@provider/package",
+  "version": "1.0.0",
   "scripts": {
     "build": "babel ./src --out-dir ./lib --copy-files",
     "install:peers": "npx @team-griffin/install-self-peers -- --pure-lockfile --ignore-scripts"
