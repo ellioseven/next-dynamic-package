@@ -1,0 +1,7 @@
+version: "2"
+services:
+  node:
+    image: "ellioseven/node:10"
+    command: ["yarn", "build", "--watch"]
+    volumes:
+      - "./:/srv"

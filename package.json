@@ -1,0 +1,16 @@
+{
+  "name": "@provider/package",
+  "scripts": {
+    "build": "babel ./src --out-dir ./lib --copy-files",
+    "install:peers": "npx @team-griffin/install-self-peers -- --pure-lockfile --ignore-scripts"
+  },
+  "peerDependencies": {
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "7.1.2"
+  }
+}
